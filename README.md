@@ -1,17 +1,13 @@
 <img src="https://github.com/GinnyGlider/A-forked-coming-soon-site-page/blob/main/images/project-preview.png?raw=true"></img>
 
 
-<h1 align="center">Base Apparel Coming Soon Page</h1>
+<h1 align="center">Portfolio site in progress</span></h1>
 
 <div align="center">
   <h3>
     <br>
-    <a href="https://catherineisonline.github.io/base-apparel-coming-soon-frontendmentor/" color="white">
-      Live Site
-    </a>
-    <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0">
-      Original Challenge
+    <a href="https://catherineisonline.github.io/base-apparel-coming-soon-frontendmentor/" color="blue">
+      Live page
     </a>
   </h3>
 </div>
