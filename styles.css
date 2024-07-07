@@ -6,27 +6,33 @@
   --body-font: "Josefin Sans", sans-serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
+  background-color: hsl(280deg 33% 2%);
+  font-family: var(--body-font);
+  overflow-y: scroll;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-  box-sizing: border-box;
-  font-family: var(--body-font);
 }
 
 body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+  display: none;
 }
 
 .main-container {
   display: grid;
   grid-template-columns: 57.5% 1fr;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .logo {
@@ -41,8 +47,6 @@ body::-webkit-scrollbar {
   grid-template-columns: 1fr;
   padding: 4rem 10.2rem;
   gap: 1rem;
-  background: linear-gradient(135deg, hsl(280deg 38% 5%), hsl(280deg 33% 2%));
-  background-size: cover;
   justify-content: space-evenly;
 }
 
@@ -69,10 +73,12 @@ h1 span {
   width: 85%;
   padding-top: 1.2rem;
 }
+
 .text-section {
   max-width: 550px;
-  color: var(--desaturated-red)
+  color: var(--desaturated-red);
 }
+
 /* IMG Section */
 .img-section {
   background-image: url("images/hero-desktop.jpg");
@@ -118,7 +124,18 @@ h1 span {
     position: initial;
     padding: 5rem 2rem;
   }
+
   h1 {
     font-size: 2.5rem;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+  .img-section {
+    background-image: url("images/hero-mobile.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
