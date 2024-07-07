@@ -6,7 +6,7 @@
 <div align="center">
   <h3>
     <br>
-    <a href="https://catherineisonline.github.io/base-apparel-coming-soon-frontendmentor/" color="blue">
+    <a href="https://ginnyglider.com/" color="blue">
       Live page
     </a>
   </h3>
