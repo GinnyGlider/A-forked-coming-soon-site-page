@@ -24,8 +24,8 @@
 }
 
 :root {
-  --desaturated-red: hsl(36 40% 47% / 1);
-  --dark-grayish-red: hsl(220 40% 24% / 1);
+  --desaturated-orange: hsl(36 40% 47% / 1);
+  --dark-blueish-purple: hsl(220 40% 24% / 1);
   --body-font: "Josefin Sans", sans-serif;
 }
 
@@ -78,19 +78,19 @@ h1 {
   text-transform: uppercase;
   font-weight: 600;
   display: inline;
-  color: var(--dark-grayish-red);
+  color: var(--dark-blueish-purple);
   letter-spacing: 1.1rem;
   line-height: 4.2rem;
 }
 
 h1 span {
-  color: var(--desaturated-red);
+  color: var(--desaturated-orange);
   font-weight: 300;
 }
 
 .info-section p {
   position: relative;
-  color: var(--desaturated-red);
+  color: var(--desaturated-orange);
   line-height: 1.8rem;
   font-weight: 400;
   width: 85%;
@@ -99,7 +99,7 @@ h1 span {
 
 .text-section {
   max-width: 550px;
-  color: var(--desaturated-red);
+  color: var(--desaturated-orange);
 }
 
 /* IMG Section */
