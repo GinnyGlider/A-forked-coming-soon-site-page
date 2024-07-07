@@ -78,7 +78,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 600;
   display: inline;
-  color: var(--dark-blueish-purple);
+  color: var(--dark-blueish);
   letter-spacing: 1.1rem;
   line-height: 4.2rem;
 }
