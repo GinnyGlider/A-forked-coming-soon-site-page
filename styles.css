@@ -4,7 +4,7 @@
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('/A-forked-coming-soon-site-page/fonts/josefin-sans-v32-latin-300.woff2') format('woff2');
+  src: url('/forked-coming-soon-page/fonts/josefin-sans-v32-latin-300.woff2') format('woff2');
 }
 /* josefin-sans-regular - latin */
 @font-face {
@@ -12,7 +12,7 @@
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('/A-forked-coming-soon-site-page/fonts/josefin-sans-v32-latin-regular.woff2') format('woff2');
+  src: url('/forked-coming-soon-page/fonts/josefin-sans-v32-latin-regular.woff2') format('woff2');
 }
 /* josefin-sans-600 - latin */
 @font-face {
@@ -20,7 +20,7 @@
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('/A-forked-coming-soon-site-page/fonts/josefin-sans-v32-latin-600.woff2') format('woff2');
+  src: url('/forked-coming-soon-page/fonts/josefin-sans-v32-latin-600.woff2') format('woff2');
 }
 
 :root {
