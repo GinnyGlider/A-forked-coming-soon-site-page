@@ -102,13 +102,48 @@ h1 span {
   color: var(--desaturated-orange);
 }
 
-/* IMG Section */
+/* Default styling (for screens above 900px) */
 .img-section {
-  background-image: url("images/hero-desktop.jpg");
+  background-image: linear-gradient(
+    to right, 
+    rgb(8 5 10),
+    rgba(0, 0, 0, 0) 30%  
+  ), 
+  url("images/hero-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100%;
   width: 100%;
+}
+
+/* Media query for screens between 600px and 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .img-section {
+    background-image: url("images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Media query for screens 600px or smaller */
+@media screen and (max-width: 600px) {
+  .img-section {
+    background-image: linear-gradient(
+      to top,
+      rgb(8 5 10),
+      rgba(0, 0, 0, 0) 30%
+    ),
+    url("images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1025px) {
@@ -154,9 +189,9 @@ h1 span {
 }
 
 /* Media query for mobile devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
   .img-section {
-    background-image: url("images/hero-mobile.jpg");
+    background-image: url("images/hero-mobile.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
